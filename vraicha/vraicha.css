@@ -1,0 +1,300 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+/* image de fond chats */
+
+body{
+    background-image: url("https://images.photowall.com/products/57005/kittens-and-bird-europe.jpg?h=699&q=85");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* curseur chat */
+
+html{
+    cursor: url("cat.cur"),auto;
+}
+
+/* placement boite oizo en haut */
+
+.boxoizo{
+display: flex;
+justify-content: center;
+}
+
+/* pimp de la boite lien oizos */
+
+.oizo{
+    display: flex;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.356);
+    height: 310px;
+    width:470px;
+    text-align: center;
+    align-items: center;
+    border-top: 35px ridge #6f5836;
+    border-right: 35px ridge #83673f;
+    border-bottom: 35px groove #78613c;
+    border-left: 35px groove #705c3d;
+    
+}
+
+/* pimp du lien oizos */
+
+ .oizo a{
+    display: flex;
+    font-size: 110px;
+    word-break: break-all;
+    text-decoration: none;
+    font-family:"Abril Fatface", sans-serif;
+  /* obligé pr google chrome askip */
+  color:rgba(223, 50, 93, 0.664);
+  
+} 
+
+/* animation hover lien oizo */
+
+ .oizo a:hover{
+    animation: rainbow 2s ease-in-out infinite;
+    transition: color .2s ease-in-out;
+    color:rgba(0,0,0,0);
+    background: linear-gradient(to right, crimson,pink,rgb(120, 150, 216));
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip:text;
+    cursor:url("../oizo/Sun\ Conure\ normal\ select.cur"), auto;
+ }
+
+ @keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+  }
+ 
+/* header */
+
+.header{
+    display: flex;
+    background-color: rgba(76, 180, 76, 0.466);
+    color: rgba(255, 255, 255, 0.808);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* logo chat header */
+
+.logocha{
+    filter: drop-shadow(3px 5px 2px rgba(24, 75, 4, 0.685));
+}
+
+/* home */
+
+.home a{
+    color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    background: rgba(28, 206, 159, 0.466);
+    background: linear-gradient(to right, rgba(12, 124, 94, 0.466) 0%, rgba(57, 221, 93, 0.466) 50%, rgba(12, 124, 94, 0.466) 100%);
+    width: 240px;
+    height: 105px;
+    text-decoration: none;
+}
+
+.home a:hover{
+    cursor: url('data:image/x-icon;base64,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'), auto;
+
+}
+
+/* shop */
+
+.shop{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background: rgba(28, 206, 159, 0.466);
+    background: linear-gradient(to right, rgba(12, 124, 94, 0.466) 0%, rgba(57, 221, 93, 0.466) 50%, rgba(12, 124, 94, 0.466) 100%);
+    height: 105px;
+    align-items: center;
+    width: 160px;
+
+}
+
+/* aide */
+
+.aide{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background: rgba(28, 206, 159, 0.466);
+    background: linear-gradient(to right, rgba(12, 124, 94, 0.466) 0%, rgba(57, 221, 93, 0.466) 50%, rgba(12, 124, 94, 0.466) 100%);
+    height: 105px;
+    align-items: center;
+    width: 160px;
+}
+
+/* body */
+
+/* info de la page */
+
+.info{
+    display: flex;
+    background-color: rgba(46, 141, 89, 0.562);
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.808);
+    justify-content: center;
+}
+
+/* style cadre */
+
+.cadre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 15px 50px;
+    width: 1500px;
+    height: 150px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(76, 180, 76, 0.466);
+    box-shadow: rgb(255, 255, 255) 0px -1px 4px,
+     rgb(55, 214, 166) 0px -2px 10px,
+      rgb(51, 211, 136) 0px -10px 20px,
+       rgb(62, 235, 128) 0px -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+
+/* texte .cadre p */
+
+.cadre p{
+    margin-left: 2px;
+}
+
+/* galerie */
+
+.galerie{
+    display: flex;
+    padding-left: 50px;
+    background-color: rgba(46, 141, 89, 0.562);
+    align-items: center;
+}
+
+/* image premier chat + cadre*/
+
+.chat1{
+    display: flex;
+    height: 450px;
+    border-top: 35px ridge #6f5836;
+    border-right: 35px ridge #83673f;
+    border-bottom: 35px groove #78613c;
+    border-left: 35px groove #705c3d;
+}
+
+/* texte et description du tableau*/
+
+.texte1, .desc1{
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+}
+
+/* nom du tableau et artiste */
+
+.texte1{
+    display: flex;
+    font-size: 25px;
+    width: 500px;
+    /* gradient */
+    background: rgba(28, 206, 159, 0.466);
+    background: linear-gradient(to right, rgb(28,206,160, 0.466) 0%, rgb(72,164,34, 0.466) 50%, rgb(115,197,143,0.466) 100%);
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    --mask: radial-gradient(40px at 40px 40px,#0000 98%,#000) -40px -40px;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+    padding: 5px;
+    
+}
+
+.desc1{
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: flex-end;
+    width:1500px;
+}
+
+/* petit timbre à côté du descriptif */
+
+.desc1 img{
+    display: flex;
+    margin-right: 50px;
+    filter: drop-shadow(5px 8px 5px rgba(24, 75, 4, 0.685));
+}
+
+/* separation peinture */
+
+.separation{
+    height: 50px;
+    background: rgba(28, 206, 159, 0.466);
+    background: linear-gradient(to right, rgba(6, 88, 20, 0.562) 0%, rgb(72,164,34, 0.466) 50%, rgb(6, 88, 20, 0.562) 100%);
+}
+
+/* boite changer de page */
+
+.page{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 128, 44, 0.466);
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 50px;
+}
+
+.pagec{
+    display: flex;
+}
+
+.pagec a{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+/* footer contact */
+
+.contact{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* hover des enfants de contact */
+
+.contact div:hover:nth-child(2),.contact div:hover:nth-child(3),.contact div:hover:nth-child(4){
+    color:#3a280c;
+}
+
+/* footer company */
+
+.company{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* hover des enfants de company */
+
+.company div:hover:nth-child(2), .company div:hover:nth-child(3),.company div:hover:nth-child(4){
+    color:#3a280c;
+}
+

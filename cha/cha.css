@@ -1,0 +1,43 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/736x/ba/92/7f/ba927ff34cd961ce2c184d47e8ead9f6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: stretch;
+    justify-content: center;
+    font-size: 150px;
+}
+
+html{
+    cursor: url("GATO_PRETO.cur"),auto;
+    height: 100%;
+    display: flex;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.562);
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(28, 83, 155)
+}
+
+nav a:hover{
+    color:rgb(86, 159, 255);
+    cursor: url("../vraicha/cat.cur"),auto;
+}
+
+
+@media (max-width:1366px){
+        body{
+            font-size:100px;
+        }
+}

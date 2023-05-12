@@ -1,0 +1,215 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: purple;
+} 
+
+body{
+    cursor:url("Sun\ Conure\ normal\ select.cur"), auto;
+}
+
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin-left: 15px;
+}
+
+.here{
+    display: flex;
+    text-align: center;
+    color:rgb(243, 185, 255);
+    font-weight: bold;
+    background-color: rgba(107, 65, 117, 0.473);
+    box-shadow:  0 0 10px 5px rgba(86, 8, 105, 0.685);
+}
+
+.here span:hover{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    color:rgb(243, 185, 255); 
+    font-size: 30px;
+    background-color: rgba(107, 65, 117, 0.473);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 360px;
+    box-shadow:  0 0 10px 5px rgba(86, 8, 105, 0.685);
+}
+
+.titre span:hover{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+ .box{
+    background-color: rgba(217, 146, 235, 0.932);
+    display: flex;
+    background-size: 150px;
+    height: 90px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+ }
+
+
+.color{
+    background-image: url("oiso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .para{
+    display: flex;
+    color: white;
+    margin-top:5px;
+    justify-content: space-around;
+    background-color: rgba(217, 146, 235, 0.856);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:15px;
+    padding-bottom: 15px;
+ }
+
+ .cool{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(107, 65, 117, 0.473);
+ }
+
+ .aimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-bottom: 15px;
+ }
+
+.relou{
+    display: flex;
+}
+
+.aimg2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boxref{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.ref{
+  display: flex;
+  margin: 10px;
+  width: 40px;
+  height: auto;
+  filter: drop-shadow(3px 5px 2px rgba(86, 8, 105, 0.685));
+}
+
+.ref:hover{
+    background-color: rgba(155, 54, 138, 0.445);
+    cursor: pointer;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.chat{
+    display: flex;
+    align-items: center;
+    width: 1180px;
+    justify-content: flex-start;
+}
+
+
+.chat nav a{
+    color: white;
+    background-color:  rgba(107, 65, 117, 0.473);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.chat nav a:hover{
+    color: black;
+    cursor: url("GATO_PRETO.cur"),auto;
+}
+
+/* body{
+    cursor   : none;
+ } */
+ 
+ /* #cursor {
+   position  : absolute;
+   z-index   : 10000;
+   width     : 40px;
+   height    : 40px;
+   background: transparent url("lumpy_bird-removebg-preview-removebg-preview.cur") 0 0 no-repeat;
+    background-size: cover;
+} */
+
+@media (max-width:600px){
+    .titleBox{
+        width: 290px;;
+    }
+    img.relou{
+        width: 100%;
+    }
+    .titre{
+        width: 200px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .here{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 15px;
+        text-align: center;
+    }
+    .ref{
+        width: 30px;
+    }
+}
+
+
+
+
+@media (min-width:1920px){
+    .titleBox{
+        width: 1150px;
+    }
+    .titre{
+        width: 500px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .here{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1366px){
+        .chat{width: 950px;
+        }
+}
