@@ -1,3 +1,5 @@
+/* fond et enlever les bordures de la page */
+
 html, body {
     margin: 0px;
     padding: 0px;
@@ -5,9 +7,35 @@ html, body {
     background-color: purple;
 } 
 
+/* curseur perruche */
+
 body{
     cursor:url("Sun\ Conure\ normal\ select.cur"), auto;
 }
+
+/* section de la page, avec une image fixe */
+
+.color{
+    background-image: url("oiso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* DEBUT DU HEADER !!!!!*/
+/*Boite avec titre, maison et la galerie + audi */
+/* la 'box' fonctionne pour la box de header ET de footer !! (PRATIQUE!!!!)*/
+
+.box{
+    background-color: rgba(217, 146, 235, 0.932);
+    display: flex;
+    background-size: 150px;
+    height: 90px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+ }
+
+ /* texte dans petites boite du titre */
 
 .titleBox{
     display: flex;
@@ -16,6 +44,8 @@ body{
     width: 800px;
     margin-left: 15px;
 }
+
+/* potite maison */
 
 .here{
     display: flex;
@@ -26,10 +56,14 @@ body{
     box-shadow:  0 0 10px 5px rgba(86, 8, 105, 0.685);
 }
 
+/* hover de la potite maison (inutile)*/
+
 .here span:hover{
     color:rgb(255, 255, 255);
     cursor: pointer;
 }
+
+/* tout est dans le nom, boite du titre */
 
 .titre{
     display: flex;
@@ -43,27 +77,23 @@ body{
     box-shadow:  0 0 10px 5px rgba(86, 8, 105, 0.685);
 }
 
+.music{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+/* prank du titre, ça fait rien juste un hover */
+
 .titre span:hover{
     color:rgb(255, 255, 255);
     cursor: pointer;
 }
 
- .box{
-    background-color: rgba(217, 146, 235, 0.932);
-    display: flex;
-    background-size: 150px;
-    height: 90px;
-    width: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
- }
+/* fin du HEADER */
+/* DEBUT DU BODY  !!!*/
 
-
-.color{
-    background-image: url("oiso.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* boite avec les deux texte */
 
  .para{
     display: flex;
@@ -77,6 +107,8 @@ body{
     padding-bottom: 15px;
  }
 
+ /* Texte individuel, ne change pas de l'un à l'autre */
+
  .cool{
     display: flex;
     margin-left: 25px;
@@ -88,6 +120,8 @@ body{
     background-color: rgba(107, 65, 117, 0.473);
  }
 
+ /* paramètre de l'image*/
+
  .aimg{
     display: flex;
     flex-direction: row;
@@ -96,9 +130,13 @@ body{
     padding-bottom: 15px;
  }
 
+ /* classe des images, elles me saoulaient alors ça s'appelle relou, je crois à la fin ça fait rien */
+
 .relou{
     display: flex;
 }
+
+/* paramètre deuxième type d'img */
 
 .aimg2{
     display: flex;
@@ -108,6 +146,11 @@ body{
     padding-bottom: 15px;
 }
 
+/* FIN DU BODY */
+/* DEBUT DU FOOTER !!!*/
+
+/* Boite avec les logos SVG */
+
 .boxref{
     display: flex;
     flex-direction: column;
@@ -115,6 +158,8 @@ body{
     padding-top: 20px;
     padding-left: 20px;
 }
+
+/* SVG / logo */
 
 .ref{
   display: flex;
@@ -124,16 +169,14 @@ body{
   filter: drop-shadow(3px 5px 2px rgba(86, 8, 105, 0.685));
 }
 
+/* hover des SVG */
+
 .ref:hover{
     background-color: rgba(155, 54, 138, 0.445);
     cursor: pointer;
 }
 
-.music{
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
-}
+/* PIMP BOITE VERS LIEN CHAT */
 
 .chat{
     display: flex;
@@ -142,6 +185,7 @@ body{
     justify-content: flex-start;
 }
 
+/* Spécialmement pour le lien, car ils sont chiant a pimper */
 
 .chat nav a{
     color: white;
@@ -155,18 +199,7 @@ body{
     cursor: url("GATO_PRETO.cur"),auto;
 }
 
-/* body{
-    cursor   : none;
- } */
- 
- /* #cursor {
-   position  : absolute;
-   z-index   : 10000;
-   width     : 40px;
-   height    : 40px;
-   background: transparent url("lumpy_bird-removebg-preview-removebg-preview.cur") 0 0 no-repeat;
-    background-size: cover;
-} */
+/* media pour le responsive */
 
 @media (max-width:600px){
     .titleBox{
