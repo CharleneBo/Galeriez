@@ -45,15 +45,17 @@ body {
 .here {
     display: flex;
     text-align: center;
-    color: rgb(243, 185, 255);
     font-weight: bold;
-    background-color: #6B4175;
     background-color: rgba(107, 65, 117, 0.473);
     box-shadow: 0 0 10px 5px rgba(86, 8, 105, 0.685);
 }
 
+.here a{
+    text-decoration: none;
+}
+
 /* hover de la potite maison (inutile) */
-.here span:hover {
+.here a:hover {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
