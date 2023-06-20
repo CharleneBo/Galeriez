@@ -1,32 +1,29 @@
 /* fond et enlever les bordures de la page */
-
 html, body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
     background-color: purple;
 } 
 
 /* curseur perruche */
-
-body{
-    cursor:url("Sun\ Conure\ normal\ select.cur"), auto;
+body {
+    cursor: url("Sun\ Conure\ normal\ select.cur"), auto;
 }
 
 /* section de la page, avec une image fixe */
-
-.color{
+.color {
     background-image: url("oiso.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* DEBUT DU HEADER !!!!!*/
-/*Boite avec titre, maison et la galerie + audi */
-/* la 'box' fonctionne pour la box de header ET de footer !! (PRATIQUE!!!!)*/
-
-.box{
-    background-color: rgba(217, 146, 235, 0.932);
+/* Boite avec titre, maison et la galerie + audi */
+/* la 'box' fonctionne pour la box de header ET de footer !! (PRATIQUE!!!!) */
+.box {
+    background-color: #D992EB; 
+    background-color: rgba(217, 146, 235, 0.932); 
     display: flex;
     background-size: 150px;
     height: 90px;
@@ -35,9 +32,8 @@ body{
     justify-content: space-between;
  }
 
- /* texte dans petites boite du titre */
-
-.titleBox{
+/* texte dans petites boite du titre */
+.titleBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,47 +42,45 @@ body{
 }
 
 /* potite maison */
-
-.here{
+.here {
     display: flex;
     text-align: center;
-    color:rgb(243, 185, 255);
+    color: rgb(243, 185, 255);
     font-weight: bold;
+    background-color: #6B4175;
     background-color: rgba(107, 65, 117, 0.473);
-    box-shadow:  0 0 10px 5px rgba(86, 8, 105, 0.685);
+    box-shadow: 0 0 10px 5px rgba(86, 8, 105, 0.685);
 }
 
-/* hover de la potite maison (inutile)*/
-
-.here span:hover{
-    color:rgb(255, 255, 255);
+/* hover de la potite maison (inutile) */
+.here span:hover {
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
 /* tout est dans le nom, boite du titre */
-
-.titre{
+.titre {
     display: flex;
     justify-content: center;
-    color:rgb(243, 185, 255); 
+    color: rgb(243, 185, 255); 
     font-size: 30px;
+    background-color: #6B4175; 
     background-color: rgba(107, 65, 117, 0.473);
     background-repeat: no-repeat;
     position: relative;
     width: 360px;
-    box-shadow:  0 0 10px 5px rgba(86, 8, 105, 0.685);
+    box-shadow: 0 0 10px 5px rgba(86, 8, 105, 0.685);
 }
 
-.music{
+.music {
     display: flex;
     align-items: center;
     margin-right: 40px;
 }
 
 /* prank du titre, ça fait rien juste un hover */
-
-.titre span:hover{
-    color:rgb(255, 255, 255);
+.titre span:hover {
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -94,51 +88,45 @@ body{
 /* DEBUT DU BODY  !!!*/
 
 /* boite avec les deux texte */
-
- .para{
+.para {
     display: flex;
     color: white;
-    margin-top:5px;
+    margin-top: 5px;
     justify-content: space-around;
+    background-color: #D992EB;
     background-color: rgba(217, 146, 235, 0.856);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top:15px;
+    padding-top: 15px;
     padding-bottom: 15px;
- }
+}
 
- /* Texte individuel, ne change pas de l'un à l'autre */
-
- .cool{
+/* Texte individuel, ne change pas de l'un à l'autre */
+.cool {
     display: flex;
     margin-left: 25px;
     margin-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
+    background-color: #6B4175;
     background-color: rgba(107, 65, 117, 0.473);
- }
+}
 
- /* paramètre de l'image*/
-
- .aimg{
+/* paramètre de l'image */
+.aimg {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 15px;
     padding-bottom: 15px;
- }
+}
 
- /* classe des images, elles me saoulaient alors ça s'appelle relou, je crois à la fin ça fait rien */
-
-.relou{
+/* classe des images, elles me saoulaient alors ça s'appelle relou, je crois à la fin ça fait rien */
+.relou {
     display: flex;
 }
 
 /* paramètre deuxième type d'img */
-
-.aimg2{
+.aimg2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -150,8 +138,7 @@ body{
 /* DEBUT DU FOOTER !!!*/
 
 /* Boite avec les logos SVG */
-
-.boxref{
+.boxref {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -160,25 +147,23 @@ body{
 }
 
 /* SVG / logo */
-
-.ref{
-  display: flex;
-  margin: 10px;
-  width: 40px;
-  height: auto;
-  filter: drop-shadow(3px 5px 2px rgba(86, 8, 105, 0.685));
+.ref {
+    display: flex;
+    margin: 10px;
+    width: 40px;
+    height: auto;
+    filter: drop-shadow(3px 5px 2px rgba(86, 8, 105, 0.685));
 }
 
 /* hover des SVG */
-
-.ref:hover{
+.ref:hover {
+    background-color: #9B368A;
     background-color: rgba(155, 54, 138, 0.445);
     cursor: pointer;
 }
 
 /* PIMP BOITE VERS LIEN CHAT */
-
-.chat{
+.chat {
     display: flex;
     align-items: center;
     width: 1180px;
@@ -186,63 +171,60 @@ body{
 }
 
 /* Spécialmement pour le lien, car ils sont chiant a pimper */
-
-.chat nav a{
+.chat nav a {
     color: white;
-    background-color:  rgba(107, 65, 117, 0.473);
+    background-color: #6B4175;
+    background-color: rgba(107, 65, 117, 0.473);
     font-size: 30px;
     text-decoration: none;
 }
 
-.chat nav a:hover{
+.chat nav a:hover {
     color: black;
-    cursor: url("GATO_PRETO.cur"),auto;
+    cursor: url("GATO_PRETO.cur"), auto;
 }
 
 /* media pour le responsive */
-
-@media (max-width:600px){
-    .titleBox{
-        width: 290px;;
+@media (max-width:600px) {
+    .titleBox {
+        width: 290px;
     }
-    img.relou{
+    img.relou {
         width: 100%;
     }
-    .titre{
+    .titre {
         width: 200px;
         text-align: center;
         font-size: 25px;
     }
-    .here{
+    .here {
         font-size: 15px;
     }
-    .para{
+    .para {
         font-size: 15px;
         text-align: center;
     }
-    .ref{
+    .ref {
         width: 30px;
     }
 }
 
-
-
-
-@media (min-width:1920px){
-    .titleBox{
+@media (min-width:1920px) {
+    .titleBox {
         width: 1150px;
     }
-    .titre{
+    .titre {
         width: 500px;
         text-align: center;
         font-size: 40px;
     }
-    .here{
+    .here {
         font-size: 20px;
     }
 }
 
-@media (max-width:1366px){
-        .chat{width: 950px;
-        }
+@media (max-width:1366px) {
+    .chat {
+        width: 950px;
+    }
 }

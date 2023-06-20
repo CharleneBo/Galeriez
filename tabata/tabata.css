@@ -1,0 +1,36 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.stars-container {
+    background-color: black;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+    position: relative;
+  }
+
+
+.star {
+    position: absolute;
+    width: 2px; /* Ajustez la taille des étoiles selon vos besoins */
+    height: 2px;
+    background-color: blue; /* Couleur de l'étoile */
+    border-radius: 50%;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .star {
+    animation: flicker 2s infinite; /* Ajustez la durée de l'animation selon vos besoins */
+  }
