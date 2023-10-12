@@ -1,18 +1,40 @@
 # Galeriez
-Mon avancement de page internet HTML/CSS !!
+Bienvenue sur mon repo "Galeriez" !
 
+🎨 Suivi de mon exploration en HTML/CSS en seulement deux semaines ! 🚀
 
-Bienvenue sur mon repo où je m'entraîne de faire du HTML/CSS !!
+Hello et bienvenue dans l'endroit où je donne vie à mes idées en HTML/CSS ! 🌟
 
-Pour plus de visibilité -> Commencez sur le dossier 'home' et son HTML !
+👀 Pour explorer :
 
-Je simule beaucoup des fonctionnalité qu'aurait des vrais pages internet, donc toutes les choses qui pourraient ressembler a des liens
-ne le sont pas, mais pas de panique! C'est normal !
+    Commencez par le dossier 'home' et plongez dans le monde du HTML !
+    Simulations de fonctionnalités inspirées de vraies pages web. Les choses qui ressemblent à des liens ne le sont pas (pas de panique, c'est normal) !
 
-Ce repo à pour but de tracker mon avancement dans le HTML/CSS, voir mes amélioration au fil du temps, grâce à la page 'home' et ces dates !
+📈 Objectif du repo :
 
-Je prends toutes critique ! Mais restez indulgents !
+    Suivre mon évolution dans le HTML/CSS et observer mes améliorations au fil du temps grâce à la page 'home' et ses dates !
 
-PS: JE SUIS AU COURANT que mon site n'est pas complétement RESPONSIVE ! Je ne peux pas travailler dessus toutes la semaine; et étant donné que j'ai des projets en tête ce types de fonctionnalité viendra sûrement APRES !
+👂 Votre avis compte !
 
-Merci ! Have fun browsing my galeriez !
+    Je suis ouvert à toutes les critiques, alors n'hésitez pas. Soyez indulgents, je suis encore en phase d'apprentissage !
+
+🚨 Petit rappel :
+
+    Je suis conscient que mon site n'est pas complètement RESPONSIVE. Ne vous inquiétez pas, c'est en pause pour le moment. Des projets sont en cours, notamment une version en React.js, mais patience, d'abord, je dois terminer mon portfolio !
+
+⚡ Quelques points clés à noter :
+
+    Création de ces pages en seulement deux semaines (en pause pour le moment).
+    Nouveau projet en vue : refaire ces pages en React.js pour créer une single page application. Ce projet est en standby, en attendant la finalisation de mon portfolio.
+    Le style un peu rétro des années 2000 est totalement intentionnel, histoire de donner une petite touche nostalgique.
+
+💡 Petites anecdotes :
+
+    Réalisation de ces pages pendant ma phase d'apprentissage de Git.
+    Les commits sont peu nombreux car c'était une période d'entraînement sur Git et une expérience pour mettre en ligne des pages.
+
+🌈 Note finale :
+
+    La dernière page créée est la page 'Home', débutée avec des oiseaux, puis des chats (qui dure éternellement à cause de vos super photos de chats que vous m'envoyez pour que je les ajoute).
+
+Merci de votre visite ! Amusez-vous à explorer mes Galeriez ! 🚀✨
